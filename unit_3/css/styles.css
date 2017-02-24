@@ -1,0 +1,92 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, p, li{
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+/* Nav */
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding-top: 16px;
+}
+
+.logo {
+  float: left;
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  color: #97A6AA;
+  background: #fff;
+}
+
+.nav li {
+  display: inline;
+  text-align: right;
+  color: #97A6AA;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 60px;
+  height: 100px;
+  opacity: 0.6;
+  padding: 10px;
+  border-bottom: 1px solid transparent;
+}
+
+.nav li a {
+  color: #97A6AA;
+}
+
+.nav li:hover {
+  border-bottom-color: #70B0A8;
+  cursor: pointer;
+}
+
+.nav li:hover a {
+  color: #70B0A8;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  height: 550px;
+  padding-top: 55px;
+  background: url("../images/kenfig.jpg") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+/* main section */
+
+.main-1, .main-2, .main-3 {
+  padding: 70px 30px;
+  font-size: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/* footer */
+
+.footer {
+  background-color: #c8cfd2;
+  padding: 50px 0 35px 0;
+  text-align: center;
+}
+
+.footer ul { 
+  list-style: none;
+}
