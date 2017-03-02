@@ -1,6 +1,7 @@
-html, body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
 }
 
 h1, h2, h3, p, li{
@@ -14,7 +15,7 @@ a {
   text-decoration: none;
 }
 
-.header {
+header {
   padding-top: 16px;
 }
 
@@ -22,40 +23,22 @@ a {
   float: left;
 }
 
-.nav {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0;
+nav {
   padding: 10px 0;
   text-align: center;
+  float: right;
+  margin-top: 1em;
+}
+nav a {
   color: #97A6AA;
-  background: #fff;
+  display: inline-block;
+  padding: 1em;
+  border-bottom: rgba(112, 176, 168, 0) solid 2px;
 }
 
-.nav li {
-  display: inline;
-  text-align: right;
-  color: #97A6AA;
-  font-size: 20px;
-  font-weight: 700;
-  margin-right: 60px;
-  height: 100px;
-  opacity: 0.6;
-  padding: 10px;
-  border-bottom: 1px solid transparent;
-}
-
-.nav li a {
-  color: #97A6AA;
-}
-
-.nav li:hover {
-  border-bottom-color: #70B0A8;
+nav a:hover {
+  border-bottom: #70B0A8 solid 2px;
   cursor: pointer;
-}
-
-.nav li:hover a {
-  color: #70B0A8;
 }
 
 /* jumbotron */
@@ -73,20 +56,25 @@ a {
 .main-1, .main-2, .main-3 {
   padding: 70px 30px;
   font-size: 20px;
+  overflow: hidden;
 }
 
 .img-circle {
   border-radius: 50%;
+  width: 33.33%;
+  float: left;
 }
-
+.main-2 .img-circle {
+  float:right;
+}
 /* footer */
 
-.footer {
+footer {
   background-color: #c8cfd2;
   padding: 50px 0 35px 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.footer ul { 
+footer ul { 
   list-style: none;
 }
